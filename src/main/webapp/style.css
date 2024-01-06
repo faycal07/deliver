@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+  .login:hover {
+            background-color: gray; /* Change this color as needed */
+            color: brown;
+        }
+ 
+         .footer {
+      background-color: #222;
+      color: #fff;
+    }
+
+    .footer-link {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+     color: orange;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+    }

@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.headerq {
+    background: rgb(173, 92, 3);
+    padding:5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:auto;
+}
+
+.logoq {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbarq {
+    display: flex;
+    height: 20px;
+}
+
+.user-infoq {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added to center content horizontally */
+    text-align: center; /* Added to center text within the container */
+}
+
+.nameq {
+    /* Add any additional styles for the name elements if needed */
+}
+
+.user-infoq i {
+    /* Add any additional styles for the icon element if needed */
+}
+
+
+.nameq {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.photo-iconq {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.containerq {
+    display: flex;
+   
+   
+}
+
+.sidebarq {
+    width: 20%;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contentq {
+    flex: 1;
+    padding: 20px;
+    width: 80%;
+}
+
+.sidebarq a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebarq a:hover {
+    background-color: #555;
+}
+/* style for main content */
+
+h1, h2 {
+    color: rgb(173, 92, 3);
+}
+
+.formq {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+.buttonq {
+    background-color:  rgb(173, 92, 3);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.buttonq:hover {
+    background-color:  rgb(173, 92, 3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color:  rgb(173, 92, 3);
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
